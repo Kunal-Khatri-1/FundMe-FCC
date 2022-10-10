@@ -65,3 +65,10 @@ yarn hardhat run scripts/withdraw.js --network localhost
 
 // creates solhint config file
 yarn solhint --init
+
+
+// when building Dapps, you usually have 2 repos
+// 1. one for the smart contracts
+// 2. one for the front end / website
+
+// full stack = smart contract (backend) + (HTML + CSS + JS)(frontend)
