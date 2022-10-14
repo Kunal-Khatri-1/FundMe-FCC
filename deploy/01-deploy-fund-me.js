@@ -4,7 +4,7 @@
 
 // if we spin up a node then we automatically get our contracts deployed in it
 
-const { network } = require("hardhat")
+const { network, ethers } = require("hardhat")
 const { networkConfig, developmentChains } = require("../helper-hardhat-config")
 const { verify } = require("../utils/verify")
 
@@ -32,7 +32,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     if (developmentChains.includes(network.name)) {
         // this gives the address
         // const ethUSDAggregator = await deployments.get("MockV3Aggregator")
-        const ethUSDAggregator = await get("MockV3Aggregator")
+        const ethUSDAggregator = await ethers.getContract("MockV3Aggregator")
         console.log("ethUSDAggregator: ", ethUSDAggregator)
         ethUSDPricefeedAddress = ethUSDAggregator.address
     } else {
