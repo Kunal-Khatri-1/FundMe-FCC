@@ -1,6 +1,6 @@
 # Hardhat FundMe Smart Contract
 
-This is a funding smart contract in which users can deposit funds and contract tracks the all the funders and the amount funded by them. The owner of the contrac has the access/permission to withdraw the funds to his account if there are any in the smart contract.
+This is a funding smart contract in which users can deposit funds and contract tracks the all the funders and the amount funded by them. The owner of the contract has access/permission to withdraw the funds to his account if there are any in the smart contract.
 
 ### Requirements
 
