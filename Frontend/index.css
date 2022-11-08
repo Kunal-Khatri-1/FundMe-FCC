@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #5b49bd, #241e8a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body button {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+body button {
+    cursor: pointer;
+}
+
+main {
+    background-color: #090824b5;
+    border-radius: 4px;
+    box-shadow: 2px 2px 0px 1px black;
+    color: white;
+    overflow: hidden;
+    padding: 20px;
+    min-width: 375px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#connectMetamaskDiv {
+    display: flex;
+    gap: 5px;
+    top: 3px;
+    right: 3px;
+    align-items: center;
+    background-color: white;
+    padding: 2px 4px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 0px 1px black;
+}
+
+#connectMetamaskDiv:hover {
+    cursor: pointer;
+}
+
+#metamaskLogo {
+    height: 20px;
+}
+
+#metamaskLogo:hover {
+    cursor: pointer;
+}
+
+#connectMetamaskDiv > button {
+    color: #090824;
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+main > #header > h1 {
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: xx-large;
+}
+
+main > #header > h1 span {
+    color: #5edcd5;
+}
+
+main > #header > h1 span:first-of-type {
+    color: #4561aa;
+}
+
+#stuff {
+    margin-top: 30px;
+}
+
+#fundDiv > input {
+    width: 80%;
+    height: 25px;
+    padding: 2px;
+    box-shadow: 1px 1px 0px 1px black;
+    border-radius: 2px;
+}
+
+#fundDiv > button {
+    height: 25px;
+    width: 18%;
+    background-color: #5edcd5;
+    box-shadow: 1px 1px 0px 1px black;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 2px;
+}
+
+#footer {
+    margin-top: 30px;
+}
+
+#footer button {
+    width: 30%;
+    height: 25px;
+    background-color: #4561aa;
+    box-shadow: 1px 1px 0px 1px black;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 2px;
+}
+
+#balanceWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
